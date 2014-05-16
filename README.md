@@ -27,3 +27,14 @@ int len;
 Stream strm = mypackfile.GetFile("test.txt", out len);
 // do something with strm
 strm.Close();
+
+```
+
+Todo List
+---------
+
+- Add multithreading support (read write locking)
+- Add per-file encryption and compression
+- Add pack file merging and splitting
+- Add better support for directories
+- Add utilities for extraction to, and creation from a folder
